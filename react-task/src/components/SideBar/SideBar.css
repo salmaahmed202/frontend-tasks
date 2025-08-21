@@ -1,0 +1,40 @@
+.sidebar {
+    position: fixed;
+    left: 90vw;
+    top: 0;
+    height: 70%;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .blue { background: #5da9e9;
+  z-index: 75; 
+width: 50px;
+height: 75vh;}
+  .yellow { background: #ffdb4c;
+  z-index: 50;
+  width: 50px;
+  height: 75vh; }
+  .red { background: #f25c54;
+  z-index: 25;
+  width: 50px;
+  height: 75vh; }
+ 
+
+  .sidebar div:hover {
+    filter: brightness(90%);
+  }

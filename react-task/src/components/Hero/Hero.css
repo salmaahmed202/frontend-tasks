@@ -1,0 +1,18 @@
+.section {
+    padding: 80px 10%;
+    border-bottom: 1px double dashed #000;
+  }
+
+  .hero  h4 {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    display: flex;
+  }
+  .hero img{
+    display: flex;
+    margin-left: 15vw;
+  }
+  .hero{
+    margin-left: 20px;
+  }
